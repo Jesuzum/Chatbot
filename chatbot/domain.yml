@@ -1,0 +1,528 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - despedir
+  - afirmar
+  - negar
+  - estado_anímico_bueno
+  - estado_anímico_malo
+  - desafío_del_bot
+  - ask_for_drink_recommendation
+  - recommend_bloody_mary
+  - recommend_screwdriver
+  - recommend_black_russian
+  - recommend_martini
+  - recommend_cosmopolitan
+  - recommend_white_russian
+  - recommend_moscow_mule
+  - recommend_vodka_drink
+  - recommend_tequila_drink
+  - recommend_tequila_bloody_mary
+  - recommend_margarita_clasica
+  - recommend_tequila_sunrise
+  - recommend_paloma
+  - recommend_tequila_mojito
+  - recommend_tequila_smash
+  - recommend_ron_drink
+  - recommend_mojito
+  - recommend_pinacolada
+  - recommend_daiquiri
+  - recommend_cubalibre
+  - recommend_maitai
+  - recommend_zombie
+  - recommend_ronpunch
+  - recommend_ronsour
+  - recommend_whiskey_drink
+  - recommend_whiskey_sour
+  - recommend_blow_job
+  - recommend_rompope
+  - recommend_manhattan
+  - recommend_cafe_irlandes
+  - recommend_john_collins
+  - recommend_old_fashion
+  - recommend_mint_julep
+  - recommend_rusty_nail
+################################################################################################
+#Vodka
+responses:
+  utter_drink_recommendations:
+    - text: "¡Claro! puedo recomendarte algunas preparaciones. ¿Qué tipo de licor prefieres?\n
+    - Vodka\n
+    - Tequila\n
+    - Ron\n
+    - Whiskey\n
+    - Pregúntame si quieres saber la lista de preparaciones que tengo a disposición por ahora."
+
+  utter_recommend_bloody_mary:
+    - text: "¡Claro! Aquí tienes la receta del Bloody Mary:\n
+      - 1.5 oz de vodka\n
+      - 3 oz de jugo de tomate\n
+      - 0.5 oz de jugo de limón fresco\n
+      - 1 pizca de sal y pimienta\n
+      - 1 ramita de apio para decorar\n
+      - Cubos de hielo\n
+      - Mezcla todos los ingredientes en un vaso alto con hielo.\n
+      - Remueve y decora con una ramita de apio.\n
+      - ¡Disfruta de tu Bloody Mary!"
+
+  utter_recommend_screwdriver:
+    - text: "¡Claro! Aquí tienes la receta del Screwdriver:\n
+      - 2 oz de vodka\n
+      - 4 oz de jugo de naranja\n
+      - Cubos de hielo\n
+      - Mezcla el vodka y el jugo de naranja en un vaso alto con hielo.\n
+      - Revuelve y disfruta de tu Screwdriver."
+
+  utter_recommend_black_russian:
+    - text: "¡Claro! Aquí tienes la receta del Black Russian:\n
+      - 1.5 oz de vodka\n
+      - 0.75 oz de licor de café (como Kahlúa)\n
+      - Cubos de hielo\n
+      - Vierte el vodka y el licor de café en un vaso bajo con hielo.\n
+      - Revuelve y disfruta de tu Black Russian."
+
+  utter_recommend_martini:
+    - text: "¡Claro! Aquí tienes la receta del Martini:\n
+      - 2.5 oz de gin o vodka\n
+      - 0.5 oz de vermut seco\n
+      - 1 aceituna o cáscara de limón para decorar\n
+      - Cubos de hielo\n
+      - Revuelve el gin o vodka y el vermut con hielo en una coctelera.\n
+      - Cuela la mezcla en una copa de cóctel y decora con una aceituna o cáscara de limón.\n
+      - ¡Disfruta de tu Martini!"
+
+  utter_recommend_vodka_drink:
+    - text: "Claro, mi teporocho N01 aqui tienes algunas preparaciones de bebidas con vodka:\n
+      - Moscow Mule\n
+      - White Russian\n
+      - Cosmopolitan\n
+      - Bloody Mary\n
+      - Screwdriver\n
+      - Black Russian\n
+      - Martini\n
+      ¿Te gustaría la receta de alguna de ellas?"
+
+  utter_recommend_moscow_mule:
+    - text: "¡Claro! Aquí tienes la receta del Moscow Mule:\n
+      - 2 oz de vodka\n
+      - 4 oz de ginger beer\n
+      - 0.5 oz de jugo de limón fresco\n
+      - Cubos de hielo\n
+      - Rodaja de limón y hojas de menta para decorar\n
+      1. Llena un vaso con hielo.\n
+      2. Agrega el vodka y el jugo de limón.\n
+      3. Rellena el vaso con ginger beer.\n
+      4. Decora con una rodaja de limón y hojas de menta.\n
+      ¡Disfruta de tu Moscow Mule maldito alcoholico!"
+      
+  utter_recommend_cosmopolitan:
+    - text: "¡Claro! Aquí tienes la receta del Cosmopolitan:\n
+      - 1.5 oz de vodka\n
+      - 0.5 oz de Cointreau (u otro licor de naranja)\n
+      - 0.25 oz de jugo de limón fresco\n
+      - 1 oz de jugo de arándano rojo\n
+      - Cubos de hielo\n
+      - Vierte todos los ingredientes en una coctelera llena de hielo.\n
+      - Agita bien y cuela en una copa de cóctel.\n
+      - Decora con una cáscara de limón o una cereza maraschino.\n
+      - ¡Disfruta de tu Cosmopolitan!"
+
+
+  utter_recommend_white_russian:
+    - text: "¡Claro! Aquí tienes la receta del White Russian:\n
+      - 2 oz de vodka\n
+      - 1 oz de licor de café (como Kahlúa)\n
+      - 1 oz de crema (puedes usar crema espesa o leche)\n
+      - Cubos de hielo\n
+      - Vierte el vodka y el licor de café en un vaso bajo con hielo.\n
+      - Agrega la crema encima.\n
+      - Remueve suavemente y disfruta tu White Russian."
+################################################################################################
+#Tequila
+  utter_recommend_tequila_drink:
+    - text: "Claro, mi teporocho N01, aquí tienes algunas preparaciones de bebidas con tequila:\n
+      - Margarita Clasica\n
+      - Tequila Sunrise\n
+      - Paloma\n
+      - Mojito\n
+      - Smash\n
+      - Bloody Mary\n
+      ¿Te gustaría la receta de alguna de ellas?"
+
+
+  utter_recommend_tequila_bloody_mary:
+    - text: "¡Claro! Aquí tienes la receta del Bloody Mary con tequila:\n
+      - 1.5 oz de tequila\n
+      - 3 oz de jugo de tomate\n
+      - 0.5 oz de jugo de limón fresco\n
+      - 1 pizca de sal y pimienta\n
+      - 1 ramita de apio para decorar\n
+      - Cubos de hielo\n
+      - Mezcla todos los ingredientes en un vaso alto con hielo\n
+      - Remueve y decora con una ramita de apio\n
+       ¡Disfruta de tu Bloody Mary!."
+
+  utter_recommend_margarita_clasica:
+    - text: "¡Claro! Aquí tienes la receta de la margarita clasica:\n
+      - 2 oz de tequila\n
+      - 1 oz de triple sec\n
+      - 0.75 oz de jarabe de agave\n
+      - 1 oz de jugo de limón fresco\n
+      - Rodajas de limón para decorar\n
+      - Sal para el borde del vaso\n
+      Mezcla todos los ingredientes con hielo en una coctelera, \n
+      cuela en un vaso con borde escarchado de sal, decora con una rodaja de limón.\n
+      Disfruta de tu bebida. Buena eleccion pana alcoholico."
+
+  utter_recommend_tequila_sunrise:
+    - text: "¡Claro! Aquí tienes la receta del Tequila Sunrise:\n
+      - 2 oz de tequila\n
+      - 4 oz de jugo de naranja\n
+      - 0.5 oz de granadina\n
+      - Rodaja de naranja para decorar.\n
+      Agrega la granadina despacio para que se asiente en el fondo. No revuelvas\n
+      Disfruta de tu bebida :)"
+
+  utter_recommend_paloma:
+    - text: "¡Claro! Aquí tienes la receta de la Paloma :\n
+      - 2 oz de tequila\n
+      - 4 oz de refresco de toronja\n
+      - 0.5 oz de jarabe de agave\n
+      - Rodaja de toronja para decorar\n
+      - Sal para el borde del vaso (opcional).\n
+      Disfruta de tu bebida bandido :)"
+
+  utter_recommend_tequila_mojito:
+    - text: "¡Claro! Aquí tienes la receta del Mojito:\n
+      - 2 oz de tequila\n
+      - 0.75 oz de jarabe de menta\n
+      - 1 oz de jugo de limón fresco\n
+      - Hojas de menta\n
+      - Agua con gas\n
+      - Rodaja de limón y hojas de menta para decorar.\n
+      Mezcla el tequila, el jarabe de menta y el jugo de limón en un vaso con hielo.\n
+      Disfruta tu mojito :), GPI."
+
+  utter_recommend_tequila_smash:
+    - text: "¡Claro! Aquí tienes la receta del Smash:\n
+      - 2 oz de tequila\n
+      - 0.75 oz de jarabe de agave\n
+      - 1 oz de jugo de limón fresco\n
+      - Handful de menta\n
+      - Rodajas de fresa para decorar.\n
+      n un vaso, mezcla el tequila, el jarabe de agave y el jugo de limón. \n
+      Agrega menta y machaca suavemente. Llena el vaso con hielo y decora con rodajas de fresa.\n
+      Disfruta de tu bebida bro :)."
+    
+########################################################################################################
+#ron
+
+  utter_recommend_ron_drink:
+    - text: "Claro, mi teporocho N01 aqui tienes algunas preparaciones de bebidas con ron las opciones son:\n
+      - Mojito con ron\n
+      - Pina Colada\n
+      - Daiquiri\n
+      - Cuba libre\n
+      - Zombie\n
+      - Ronpunch\n
+      - Ronsour\n
+      ¿Te gustaría la receta de alguna de ellas?"
+
+  utter_recommend_mojito:
+    - text: "¡Claro! Aquí tienes la receta del Mojito:\n
+       - 2 oz (60 ml) de ron blanco\n
+       - 1 oz (30 ml) de jarabe de azúcar\n
+       - 3/4 oz (22.5 ml) de jugo de limón\n
+       - 8-10 hojas de menta fresca\n
+       - Agua con gas (soda)\n
+       - Cubos de hielo\n
+       - Rodajas de limón y hojas de menta para decorar.\n
+       - En un vaso alto, agrega las hojas de menta y el jarabe de azúcar.\n
+       - Usa un mortero o un muddler para aplastar suavemente las hojas de menta y liberar su aroma.\n
+       - Agrega el jugo de limón y el ron blanco al vaso.\n
+       - Llena el vaso con cubos de hielo.\n
+       - Remueve la mezcla en el vaso con una cuchara larga para mezclar bien los ingredientes.\n
+       - Completa el vaso con agua con gas (soda) al gusto.\n
+       - Decora con rodajas de limón y hojas de menta fresca.\n
+       - ¡Listo! Disfruta de tu refrescante Mojito."
+
+  utter_recommend_pinacolada:
+    - text: "¡Claro! Aquí tienes la receta de la piña colada:\n
+       - 2 oz (60 ml) de ron blanco\n
+       - 3 oz (90 ml) de crema de coco\n
+       - 3 oz (90 ml) de jugo de piña\n
+       - Cubos de hielo\n
+       - Rodajas de piña y/o cereza para decorar\n
+       - En una licuadora, agrega el ron blanco, la crema de coco y el jugo de piña.\n
+       - Añade unos cuantos cubos de hielo a la licuadora.\n
+       - Mezcla todos los ingredientes a alta velocidad hasta obtener una mezcla suave y cremosa.\n
+       - Vierte la mezcla en un vaso alto.\n
+       - Decora con rodajas de piña y/o una cereza en la parte superior.	\n
+       - ¡Listo! Ahora tienes una refrescante Piña Colada. ¡Disfruta tu bebida tropical!."
+
+  utter_recommend_daikiri:
+    - text: "¡Claro! Aquí tienes la receta del Dahiquirí:\n
+      - 2 oz (60 ml) de ron blanco.\n
+      - 3/4 oz (22.5 ml) de jarabe de azúcar.\n
+      - 1 oz (30 ml) de jugo de limón fresco.\n
+      - Cubos de hielo.\n
+      - Rodaja de limón para decorar.\n
+      - En una coctelera, agrega el ron blanco, el jarabe de azúcar y el jugo de limón fresco.\n
+      - Llena la coctelera con cubos de hielo.\n
+      - Agita vigorosamente durante unos 15-20 segundos para enfriar la mezcla.\n
+      - Cuela la mezcla en una copa de cóctel previamente enfriada.\n
+      - Decora con una rodaja de limón en el borde del vaso o flotando en la bebida.\n
+      - ¡Listo! Ahora tienes un clásico Daiquirí."
+
+  utter_recommend_cubalibre:
+    - text: "¡Claro! Aquí tienes la receta de la cuba libre (Cubeiby).\n
+      - 2 oz (60 ml) de ron blanco\n
+      - Cola (refresco de cola)\n
+      - Rodaja de limón\n
+      - Cubos de hielo\n
+      - Llena un vaso alto con cubos de hielo.\n
+      - Vierte el ron blanco sobre los cubos de hielo.\n
+      - Completa el vaso con cola, dejando espacio para mezclar.\n
+      - Remueve suavemente la mezcla con una cuchara para asegurar una distribución uniforme del ron y la cola.\n
+      - Exprime el jugo de la rodaja de limón sobre la bebida y agrégala al vaso.\n
+      - Opcional: Decora con una rodaja adicional de limón en el borde del vaso.\n
+      - ¡Listo! Ahora tienes una refrescante y sabrosa Cubeiby."
+
+  utter_recommend_maitai:
+    - text: "¡Claro! Aquí tienes la receta del Mai Tai:\n
+      - 1 1/2 oz (45 ml) de ron oscuro\n
+      - 1/2 oz (15 ml) de ron blanco\n
+      - 3/4 oz (22.5 ml) de curaçao de almendra\n
+      - 3/4 oz (22.5 ml) de licor de naranja\n
+      - 1 oz (30 ml) de jugo de limón fresco\n
+      - 1/2 oz (15 ml) de jarabe de almendra (orgeat)\n
+      - Cubos de hielo\n
+      - Rodaja de piña y cereza para decorar.\n
+      - Llena una coctelera con hielo.\n
+      - Agrega todos los ingredientes a la coctelera.\n
+      - Agita vigorosamente durante unos 15-20 segundos.\n
+      - Cuela la mezcla en un vaso bajo o vaso old-fashioned lleno de hielo.\n
+      - Decora con una rodaja de piña y una cereza en la parte superior del cóctel.\n
+      - ¡Listo! Ahora tienes un delicioso Mai Tai. ¡Disfruta tu cóctel tropical!."
+
+  utter_recommend_zombie:
+   - text: "¡Claro! Aquí tienes la receta del Zombie:\n
+      - 1 1/2 oz (45 ml) de ron oscuro\n
+      - 1 1/2 oz (45 ml) de ron blanco\n
+      - 1 oz (30 ml) de ron de coco\n
+      - 3/4 oz (22.5 ml) de licor de albaricoque\n
+      - 1 oz (30 ml) de jugo de piña\n
+      - 3/4 oz (22.5 ml) de jugo de naranja\n
+      - 1/4 oz (7.5 ml) de jarabe de granadina\n
+      - 1 oz (30 ml) de jugo de limón fresco\n
+      - 1/4 oz (7.5 ml) de grenadina (para flotar)\n
+      - Cubos de hielo\n
+      - Rodajas de naranja y cereza para decorar\n
+      - En una coctelera, combina todos los rones, licor de albaricoque, jugo de piña, jugo de naranja,\n jarabe de granadina y jugo de limón.\n
+      - Agita enérgicamente durante unos 15-20 segundos.\n
+      - Cuela la mezcla en un vaso alto lleno de hielo.\n
+      - Vierte lentamente la grenadina sobre la parte posterior de una cuchara para que flote en la \nsuperficie del cóctel.\n
+      - Decora con rodajas de naranja y una cereza."
+
+  utter_recommend_ronpunch:
+    - text: "¡Claro! Aquí tienes la receta del Ron Punch:\n
+      - 1 1/2 oz (45 ml) de ron blanco\n
+      - 3 oz (90 ml) de jugo de piña\n
+      - 1 oz (30 ml) de jugo de naranja\n
+      - 1 oz (30 ml) de jugo de mango\n
+      - 1/2 oz (15 ml) de grenadina\n
+      - Cubos de hielo\n
+      - Rodajas de naranja y trozos de piña para decorar.\n
+      - En una coctelera, combina el ron blanco, el jugo de \npiña, el jugo de naranja, el jugo de mango y la grenadina.\n
+      - Agita bien la mezcla durante unos 15-20 segundos para combinar los sabores.\n
+      - Llena un vaso alto con cubos de hielo.\n
+      - Vierte la mezcla sobre los cubos de hielo.\n
+      - Revuelve suavemente con una cuchara para mezclar los ingredientes.\n
+      - Decora con rodajas de naranja y trozos de piña en la parte superior del vaso.\n
+      - ¡LISTO! Disfruta de tu bebida refrescante, esta bebida es muy versátil, sientete \nlibre de ajustar las cantidades de los ingredientes."
+
+  utter_recommend_ronsour:
+    - text: "¡Claro! Aquí tienes la receta para el famoso Ron Sour:\n
+      - 2 oz (60 ml) de ron\n
+      - 3/4 oz (22.5 ml) de jarabe de azúcar\n
+      - 3/4 oz (22.5 ml) de jugo de limón\n
+      - Clara de huevo\n
+      - Cubos de hielo\n
+      - En una coctelera, agrega el ron, el jarabe de azúcar y el jugo de limón.\n
+      - Si lo prefieres con una textura más suave y espumosa, puedes añadir la clara de huevo en este punto.\n
+      - Agrega cubos de hielo a la coctelera.\n
+      - Agita vigorosamente durante unos 15-20 segundos para mezclar y enfriar la mezcla.\n
+      - Cuela la mezcla en un vaso bajo o copa de cóctel.\n
+      - Opcional: Decora con una rodaja de limón o una cereza al borde del vaso.\n
+      - ¡LISTO! Disfruta de una bebida elegante y deliciosa, la clara de huevo es\n esencial para darle la textura cremosa."
+
+#####################################################################################################################################
+#Whiskey
+
+  utter_recommend_whiskey_drink:
+  - text: "¡Con gusto! Aquí tienes algunos buenos tragos que te puedes preparar mi teporochin:\n
+    - Whiskey Sour\n
+    - Blow job shot\n
+    - Rompope\n
+    - Manhattan\n
+    - Cafe irlandes\n
+    - John Collins\n
+    - Old fashion\n
+    - Mint julep\n
+    - Rusty Nail\n
+    ¿Cuál receta te gustaría preparar pa pistear hoy?"
+
+  utter_recommend_whiskey_sour:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 30 mililitros de whisky (usa cualquier tipo)\n
+    - 30 mililitros de zumo de limón\n
+    - 1 cda sopera de azúcar\n
+    - 5 cubos de hielo\n
+    - 1 rodaja de limón\n
+    Primero: Vierte en una coctelera el whisky, el zumo de limón y el azúcar (en ese orden). \n
+    Bate enérgicamente durante unos segundos hasta que se disuelva el azúcar \n
+    y los líquidos se enfríen.\n
+    Segundo: Pasa el contenido de la coctelera a un vaso corto que contenga dos\n
+    cubos de hielo. Decora con una guinda o cereza.\n
+    ¡Y listón! A pachanguear."
+  
+  utter_recommend_blow_job:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 15 mililitros de Amaretto\n
+    - 15 mililitros de Bayleys\n
+    - 15 mililitros de Kalua\n
+    Vierte en un shot largo el Amaretto, el Kalua (despacio) y el Baileys.\n
+    Respeta el orden y sirve muy despacio. Si quieres suavizarle el sabor \n
+    reemplaza el amaretto o el baleys por nata montada.\n
+    ¡Ahora a degustar!"
+  
+  utter_recommend_rompope:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 8 huevos grandes\n
+    - ¾ de taza de azúcar\n
+    - 1 taza de whisky\n
+    - ½ taza de nata\n
+    - Nuez moscada\n
+    Preparación:\n
+    1. Bate las yemas y el azúcar con batidora eléctrica. Mezcla hasta conseguir \nuna contextura ligera y de color amarillo pálido.\n
+    2. Agrega el whisky lentamente. Mezcla de nuevo.\n
+    3. En otro recipiente monta la nata. Incorpórala en la preparación realizando movimientos envolventes.\n
+    4. Bate las claras a punto de nieve. Reserva para decorar.\n
+    5. Sirve con la crema y la nuez moscada molida.\n
+    ¡Y listo! A compartir este rico postre."
+
+  utter_recommend_manhattan:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 1 ½ onza de whisky\n
+    - 1 onza de vermut tinto o rojo\n
+    - 8 gotas de amargo de angostura\n
+    - 4 cubos de hielo\n
+    1. Enfría la copa de 10-15 minutos en el congelador. Hay muchos otros métodos,\n
+     pero este resulta muy práctico.\n
+    2. Agrega los hielos en una coctelera y también los ingredientes. Hazlo siguiendo\n
+     este orden: whisky, vermut tinto o rojo y amargo de angostura.\n
+    3. Remueve con un mezclador durante 8 segundos. Cuela la mezcla sobre una copa previamente\n
+     enfriada. Decora depositando una cereza roja en el vaso.\n
+    Y ahora si, a disfrutar!!!"
+  utter_recommend_cafe_irlandes:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 1 vaso de whisky (preferiblemente irlandés)\n
+    - ½ litro de café\n
+    - 200 gramos de nata líquida (crema de leche)\n
+    - 40 gramos de azúcar\n
+    1. Calienta el whisky con azúcar y espera hasta que hierva.\n
+    2. Distribuye la mezcla en 4 vasos.\n
+    3. Vierte encima el café bien caliente. Tenlo listo con antelación.\n
+    4. Monta la crema de leche. Una vez lista, puedes introducirla en una manga pastelera o usarla así.\n
+    5. Cubre con la crema los vasos. Disfruta esta bebida sin remover, así la nata permanecerá en la superficie.\n
+    ¡Y listo! A compartir este ponch de energía."
+
+  utter_recommend_john_collins:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 1 onza de whisky\n
+    - 1 onza de jugo de limón\n
+    - Media onza jarabe de azúcar\n
+    - Soda o agua mineral\n
+    - Rodaja de limón y cereza\n
+    1. Agrega el jarabe de azúcar y el limón en un vaso de Collins. Agita bien ayudándote \ncon una cuchara (preferiblemente de 
+    las especiales alargadas).\n
+    2. Deposita hielo en el vaso y después rellénalo con agua mineral o soda. Mezcla un poco con la cuchara.\n
+    3. Decora y sirve. Ponle una rodaja de limón y una cereza.\n
+    ¡Que lo disfrutes!"
+
+  utter_recommend_old_fashion:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 2 onzas de Bourbon (60 ml)\n
+    - 3 chorritos de Angostura\n
+    - 1 cdta de azúcar\n
+    - ½ onza de agua helada (15 ml)\n
+    - 1 cereza de Maraschino (opcional)\n
+    - Piel de naranja (decoración)\n
+    1. Agrega el azúcar en un vaso y mójala con angostura. Usa un vaso bajo o Old-Fashioned.\n
+    2. Vierte el agua fría y disuelve el azúcar. Ayúdate con un machacador (muddler) hasta obtener un jarabe rojizo.\n
+    3. Deposita 2-3 cubos de hielo y 1 onza del bourbon (30 ml). Remueve con una cuchara de cóctel. La dosificación\n
+     del boubon en dos partes se practica para facilitar la dilución final del cóctel.\n
+    4. Añade 2-3 cubos de hielo adicionales, más el resto del bourbon. Mezcla de nuevo todo.\n
+    5. Adorna el cóctel. Corta una cáscara de naranja alargada, retuércela un poco, ponla dentro del trago y remueve\n
+     una vez más. Finalmente, agrega la cereza.\n
+     ¡Que lo disfrutes!"
+  
+  utter_recommend_mint_julep:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 1/3 onza de jarabe\n
+    - 1 puñito de hojas de menta fresca\n
+    - 2 onzas de Glenfiddich 12 años\n
+    - Hielo raspado\n
+    - 1 ramita de menta\n
+    1. Machaca con un mortero las hojas de menta contra el fondo del vaso. Hazlo suavemente y solo un poco, si no amargará el trago.\n
+    2. Vierte el jarabe. Aplasta de nuevo las hojas y mézclalas con el jarabe.\n
+    3. Añade el Glenfiddich y rellena el vaso con hielo raspado. Ponlo hasta el tope, debe formar una pequeña montaña.\n
+    4. Decora con una ramita de menta.\n
+    Esto te quita más la sed que el auténtico quita sed."
+
+  utter_recommend_rusty_nail:
+  - text: "Aquí tienes lo necesario para hacerte este elixir:\n
+    - 11/2 onza de whisky escocés\n
+    - 11/2 onza de Drambuie\n
+    - Hielo\n
+    - 1 rodaja de limón\n
+    Primero: Llena un vaso con hielo hasta el tope. Usa un vaso bajo o un vaso Old-Fashioned.\n
+    Segundo: Vierte el whisky escocés y el Drambuie. Ponle el toque final colocándole una rodaja de limón.\n
+    ¡Que lo disfrutes!"
+  
+##########################################################################################################
+#base
+
+
+  utter_saludo:
+  - text: "¡Hola! ¿Cómo estás?, soy toporochin un Bot especializado en bebidas alcholicas en que te puedo ayudar, podrias comenzar por pedir algo de beber (solo escribe quiero beber algo)"
+  - text: "¡Hola! ¿Cómo estás? Soy Toporochin, un bot especializado en bebidas alcohólicas. ¿En qué te puedo ayudar? ya sabes que quieres beber"
+  - text: "¡Hola! Soy Toporochin, tu experto en cócteles y bebidas alcohólicas. ¿En qué puedo asistirte? podemos comenzar solo con la palabra 'beber'"
+  - text: "¡Hola! Bienvenido a Toporochin, tu bot para recomendaciones de bebidas alcohólicas. ¿En qué puedo orientarte? solo tienes que escribir 'quiero beber y te mostrare mi menu'"
+  - text: "¡Hola! Soy Toporochin, el bot amante de las bebidas alcohólicas. ¿En qué puedo aconsejarte hoy? te recomiendo escribir vodka"
+  - text: "¡Saludos! Soy Toporochin, un bot apasionado por las bebidas alcohólicas. ¿En qué puedo hacer que tu día sea más agradable? un buen tequila siempre te saca una sonrriza. :)"
+  - text: "¡Hola! ¿Qué tal? Soy Toporochin, el experto en cócteles. ¿En qué puedo ayudarte a encontrar hoy? si gustas puedes pedir mi opinion ;)"
+  - text: "¡Hola, amigo! Soy Toporochin, el bot con conocimiento sobre bebidas alcohólicas. ¿En qué puedo servirte hoy? funciono mejor si utilizas alguno de estos comandos ('beber' 'quiero beber' 'tomar')"
+  - text: "¡Saludos! Soy Toporochin, un experto virtual en bebidas alcohólicas. ¿En qué puedo asistirte en este momento? funciono mejor si utilizas alguno de estos comandos ('Tienes algun coctel' 'quiero beber' ' quiero tomar')"
+  - text: "¡Hola! ¿Cómo te va? Soy Toporochin, el bot de las bebidas alcohólicas. ¿En qué puedo ofrecerte mi ayuda? solo tienes que escribir 'quiero beber y te mostrare mi menu"
+  - text: "¡Hola! Soy Toporochin, el bot especializado en recomendaciones de cócteles y bebidas. ¿En qué puedo orientarte hoy? si quieres mi opinion solo tienes que pedirla con algo como 'quiero tu opinion.'"
+
+  utter_feliz:
+  - text: "¡Genial, sigue pisteando!"
+  - text: "Ponte hasta las chanclas, disfrutalo!!"
+
+  utter_despedida:
+  - text: "Adiós. Soy Toporochin, tu asesor de bebidas. Recuerda beber de manera responsable."
+  - text: "Hasta luego. Toporochin, el experto en cócteles, está aquí para ayudarte. Bebe con responsabilidad."
+  - text: "Nos vemos. Soy Toporochin, el bot de bebidas. No olvides disfrutar con moderación."
+  - text: "¡Hasta la próxima! Toporochin, tu compañero de bebidas, te aconseja beber con responsabilidad."
+  - text: "Adiós por ahora. Soy Toporochin, el apasionado de las bebidas. Recuerda disfrutar con responsabilidad."
+  - text: "Cierro por hoy. Toporochin, el experto en cócteles, te insta a beber de manera responsable."
+
+  utter_soyunbot:
+  - text: "Soy un bot, impulsado por Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

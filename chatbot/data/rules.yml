@@ -1,0 +1,192 @@
+version: "3.1"
+
+rules:
+  - rule: Responder a la pregunta de recomendaciones de bebidas
+    steps:
+      - intent: ask_for_drink_recommendation
+      - action: utter_drink_recommendations
+
+  # Reglas para recomendaciones con vodka
+  - rule: Recomendar el Bloody Mary
+    steps:
+      - intent: recommend_bloody_mary
+      - action: utter_recommend_bloody_mary
+
+  - rule: Recomendar el Screwdriver
+    steps:
+      - intent: recommend_screwdriver
+      - action: utter_recommend_screwdriver
+
+  - rule: Recomendar el Black Russian
+    steps:
+      - intent: recommend_black_russian
+      - action: utter_recommend_black_russian
+
+  - rule: Recomendar el Martini
+    steps:
+      - intent: recommend_martini
+      - action: utter_recommend_martini
+
+  - rule: Recomendar el Cosmopolitan
+    steps:
+      - intent: recommend_cosmopolitan
+      - action: utter_recommend_cosmopolitan
+
+  - rule: Recomendar el White Russian
+    steps:
+      - intent: recommend_white_russian
+      - action: utter_recommend_white_russian
+
+  - rule: Recomendar el Moscow Mule
+    steps:
+      - intent: recommend_moscow_mule
+      - action: utter_recommend_moscow_mule
+
+  - rule: Recomendar bebidas con vodka
+    steps:
+      - intent: recommend_vodka_drink
+      - action: utter_recommend_vodka_drink
+
+  # Reglas para recomendaciones con tequila
+  - rule: Recomendar bebidas con tequila
+    steps:
+      - intent: recommend_tequila_drink
+      - action: utter_recommend_tequila_drink
+
+  - rule: Recomendar el Bloody Mary con tequila
+    steps:
+      - intent: recommend_tequila_bloody_mary
+      - action: utter_recommend_tequila_bloody_mary
+
+  - rule: Recomendar la Margarita Clásica
+    steps:
+      - intent: recommend_margarita_clasica
+      - action: utter_recommend_margarita_clasica
+
+  - rule: Recomendar el Tequila Sunrise
+    steps:
+      - intent: recommend_tequila_sunrise
+      - action: utter_recommend_tequila_sunrise
+
+  - rule: Recomendar la Paloma
+    steps:
+      - intent: recommend_paloma
+      - action: utter_recommend_paloma
+
+  - rule: Recomendar el Mojito con tequila
+    steps:
+      - intent: recommend_tequila_mojito
+      - action: utter_recommend_tequila_mojito
+
+  - rule: Recomendar el Tequila Smash
+    steps:
+      - intent: recommend_tequila_smash
+      - action: utter_recommend_tequila_smash
+  #Reglas con ron
+  - rule: Recomendar bebidas con ron
+    steps:
+      - intent: recommend_ron_drink
+      - action: utter_recommend_ron_drink
+
+  - rule: Recomendar mojito con ron
+    steps:
+      - intent: recommend_mojito
+      - action: utter_recommend_mojito
+
+  - rule: Recomendar la Piña Colada
+    steps:
+      - intent: recommend_pinacolada
+      - action: utter_recommend_pinacolada
+
+  - rule: Recomendar Daiquirí
+    steps:
+      - intent: recommend_daiquiri
+      - action: utter_recommend_daikiri
+
+  - rule: Recomendar Cuba libre
+    steps:
+      - intent: recommend_cubalibre
+      - action: utter_recommend_cubalibre
+
+  - rule: Recomendar Mai Tai
+    steps:
+      - intent: recommend_maitai
+      - action: utter_recommend_maitai
+
+  - rule: Recomendar Zombie
+    steps:
+      - intent: recommend_zombie
+      - action: utter_recommend_zombie
+
+  - rule: Recomendar Ron Punch
+    steps:
+      - intent: recommend_ronpunch
+      - action: utter_recommend_ronpunch
+
+  - rule: Recomendar Ron Sour
+    steps:
+      - intent: recommend_ronsour
+      - action: utter_recommend_ronsour
+
+  # reglas con wisconsin
+
+  - rule: recomendar bebidas con whiskey
+    steps:
+      - intent: recommend_whiskey_drink
+      - action: utter_recommend_whiskey_drink
+
+  - rule: recomendar whiskey sour
+    steps:
+      - intent: recommend_whiskey_sour
+      - action: utter_recommend_whiskey_sour
+
+  - rule: recomendar blow job shot
+    steps:
+      - intent: recommend_blow_job
+      - action: utter_recommend_blow_job
+
+  - rule: recomendar rompope
+    steps:
+      - intent: recommend_rompope
+      - action: utter_recommend_rompope
+
+  - rule: recomendar manhattan
+    steps:
+      - intent: recommend_manhattan
+      - action: utter_recommend_manhattan
+
+  - rule: recomendar cafe irlandes
+    steps:
+      - intent: recommend_cafe_irlandes
+      - action: utter_recommend_cafe_irlandes
+
+  - rule: recomendar john collins
+    steps:
+      - intent: recommend_john_collins
+      - action: utter_recommend_john_collins
+
+  - rule: recomendar old fashion
+    steps:
+      - intent: recommend_old_fashion
+      - action: utter_recommend_old_fashion
+
+  - rule: recomendar mint julep
+    steps:
+      - intent: recommend_mint_julep
+      - action: utter_recommend_mint_julep
+
+  - rule: recomendar rusty nail
+    steps:
+      - intent: recommend_rusty_nail
+      - action: utter_recommend_rusty_nail
+
+  # Otras reglas
+  - rule: Despedirse cuando el usuario se despide
+    steps:
+      - intent: despedir
+      - action: utter_despedida
+
+  - rule: Decir 'Soy un bot' cuando el usuario plantea un desafío
+    steps:
+      - intent: desafío_del_bot
+      - action: utter_soyunbot

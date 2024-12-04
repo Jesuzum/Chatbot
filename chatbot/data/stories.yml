@@ -1,0 +1,9 @@
+version: "3.1"
+
+stories:
+  - story: camino feliz
+    steps:
+      - intent: saludar
+      - action: utter_saludo
+      - intent: estado_anímico_bueno
+      - action: utter_feliz

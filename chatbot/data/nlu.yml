@@ -1,0 +1,484 @@
+version: "3.1"
+nlu:
+  - intent: ask_for_drink_recommendation
+    examples: |
+      - Quiero beber
+      - Dame algunas sugerencias de cócteles
+      - Puedes recomendarme una bebida para probar
+      - Tienes algún cóctel en mente
+      - Beber
+      - tomar
+      - hoy tengo ganas de beber
+      - pistear
+      - alcoholizarme
+      - quiero alcohol
+      - alcolitos
+      - unos vinitos
+      - vinos
+  ################################################################################################
+  #Vodka
+  - intent: recommend_bloody_mary
+    examples: |
+      - como se hace un Bloody Mary
+      - que hay del Bloody Mary
+      - Quiero hacer un Bloody Mary cómo se hace
+      - Blody Mary
+
+  - intent: recommend_screwdriver
+    examples: |
+      - Como se hace un Screwdriver
+      - que es un Screwdriver
+      - como va el Screwdriver
+      - Quiero hacer un Screwdriver cómo se hace
+      - ¿Como se hace un desarmador
+      - que es un desarmador
+      - como va el desarmador
+      - Quiero hacer un desarmador cómo se hace
+      - desarmador
+      - screwdriver
+
+  - intent: recommend_black_russian
+    examples: |
+      - como se hace un Black Russian
+      - que hay del Black Russian
+      - Como va el Black Russian
+      - Quiero hacer un Black Russian cómo se hace
+      - black russian
+
+  - intent: recommend_martini
+    examples: |
+      - como se prepara un Martini
+      - que hay del martini.
+      - como va el martini un cóctel Martini
+      - Quiero hacer un Martini cómo se hace
+      - martini
+
+  - intent: recommend_cosmopolitan
+    examples: |
+      - Como se prepara un cosmopolitan
+      - me puedes decir que hay del cosmopolitan
+      - cosmopolitan
+      - Quiero hacer un Cosmopolitan cómo se hace
+      - cosmopolitan
+
+  - intent: recommend_white_russian
+    examples: |
+      - como se prepara un White Russian
+      - como es un white russian.
+      - como es un cóctel White Russian
+      - Quiero hacer un White Russian cómo se hace
+      - White Russian
+
+  - intent: recommend_vodka_drink
+    examples: |
+      - que me recomiendas con vodka
+      - Dame una sugerencia de cóctel con vodka.
+      - Puedes recomendarme una preparación que incluya vodka
+      - vodka
+
+  - intent: recommend_moscow_mule
+    examples: |
+      - que hay del moscow mule
+      - como se prepara el moscow mule
+      - moscow mole
+      - quiero un white russian como se hace
+
+  ################################################################################################
+  #tequila
+  - intent: recommend_tequila_drink
+    examples: |
+      - quiero algo con tequila
+      - me gustaria algo que recuerde a mexico
+      - tequila
+      - algo mexicano
+      - algo hecho en tequila 
+      - con tequila 
+      - me das algo con tequila
+      - me quiero mamar con tequila 
+      - tequila para beber
+      - tequila para tomar
+      - un coctel con tequila 
+      - un cantarito
+
+  - intent: recommend_tequila_bloody_mary
+    examples: |
+      - que hay del bloady mary
+      - que es el blody mary
+      - blody mary
+      - me interesa el blody mary
+      - echame el blody'
+      - blody
+      - mary
+
+  - intent: recommend_margarita_clasica
+    examples: |
+      - que hay de la margarita 
+      - como se prepara la margarita
+      - margarita
+      - quiero hacer una margarita 
+      - dame algo clasico
+      - algo clásico
+      - una margarita
+
+  - intent: recommend_tequila_sunrise
+    examples: |
+      - que hay del sunrise 
+      - como se prepara el sunrise
+      - sunrise 
+      - quiero un sunrise como se hace
+      - algo para despertarme
+
+  - intent: recommend_paloma
+    examples: |
+      - que hay de la paloma 
+      - como se prepara la paloma 
+      - paloma 
+      - quiero una paloma como se hace
+      - dame algo que vuele
+      - algo con alas
+      - una rata con alas 
+      - un palomon
+
+  - intent: recommend_tequila_mojito
+    examples: |
+      - que hay del mojito 
+      - como se prepara el mojito 
+      - mojito
+      - quiero un  mojito como se hace
+      - dame algo fresco
+      - dame algo mas fresa
+      - quiero un mojito 
+      - algo fresco y frutal
+
+  - intent: recommend_tequila_smash
+    examples: |
+      - que hay del smash
+      - como se prepara el smash
+      - smash
+      - quiero un samsh  como se hace
+      - dame un putaso
+      - dame algo fuerte
+      - un golpe 
+      - un golpe en espaniol
+  ######################################################################################################
+  #ron
+
+  - intent: recommend_ron_drink
+    examples: |
+      - que hay del ron
+      - que se prepara con el ron
+      - ron
+      - quiero un ron como se hace
+      - dame algo fuerte
+      - dame algo con ron
+      - algo clasico
+      - algo de ron
+      - algo de ron con ron
+
+  - intent: recommend_mojito
+    examples: |
+      - Se me antoja un mojito
+      - como se prepara el mojito
+      - me gustaria el mojito
+      - quiero un mojito
+      - como se hace un mojito?
+      - se me antoja algo dulce y refrescante
+      - Quiero tomar mojito
+      - No he probado el mojito
+
+  - intent: recommend_pinacolada
+    examples: |
+      - quiero algo fresco, dulce y tropical
+      - una bebida que contenga coco
+      - como se prepara la piña colada?
+      - una bebida para tomar en la playa
+      - quiero saber como hacer piña colda
+      - preparacion de piña colada
+      - piña colada
+
+  - intent: recommend_daikiri
+    examples: |
+      - daikiri
+      - el dhaikiri
+      - me da curiosidad el daikiri
+      - que lleva el daikiri
+      - me interesa el daikiri
+      - creo que un daikiri
+      - como se hace el daikiri
+      - que es el daikiri?
+      - como preparo el daikiri?
+      - se me antoja un daikiri
+      - que tal esta el daikiri?
+
+  - intent: recommend_cubalibre
+    examples: |
+      - algo sencillo
+      - quiero algo fácil de preparar
+      - alco con pocos ingredientes
+      - algo con poco presupuesto
+      - algo que sea bueno y barato
+      - que no me lleve mucho tiempo
+      - algo clásico
+      - lo más común
+      - algo fuerte y fresco
+
+  - intent: recommend_maitai
+    examples: |
+      - que lleva el Mai Tai?
+      - que es el mai tal?
+      - voy a intentar el mai tai
+      - me gustaría algo tropical
+      - algo de sabor frutal
+      - como preparo Mai Tai?
+      - a que sabe el Mai Tai
+      - quiero probar algo diferente
+      - algo nuevo
+
+  - intent: recommend_zombie
+    examples: |
+      - Zombie?
+      - dame el zombie
+      - quiero un zombie
+      - zombi
+      - me da curiosidad el zombie
+      - voy a intentar el zombie
+      - como preparo un zombie?
+      - que lleva el zombie?
+      - que es eso de zombie?
+      - quiero quedar zombie
+      - me gusta el zombie
+      - me gustaría algo con piña
+      - quiero algo tropical y dulce
+      - algo con naranja
+      - recomiendame algo raro
+      - algo extravagante
+
+  - intent: recommend_ronpunch
+    examples: |
+      - quiero algo con mango
+      - algo rico con mango
+      - mango
+      - prepara algo que tenga mango
+      - recomendaciones con mango
+      - una bebida exotica y fresca
+      - algo exotico
+      - que es el Ron Punch?
+      - Me da curiosidad el Ron Punch
+      - Como preparar un Ron Punch?
+      - Como preparo un Ron Punch?
+      - Se me antoja el Ron Punch
+      - Algo con muchas frutas
+
+  - intent: recommend_ronsour
+    examples: |
+      - algo dulce y agrio
+      - dulce
+      - quiero algo dulce para comenzar
+      - algo delicioso que lleve limón
+      - para que me de diabetes
+      - algo para que me de diabetes
+      - que lleve limón que no sea tan simple
+      - algo un poco raro
+      - quiero algo refrescante con limon
+      - algo cremoso
+      - dame una mezcla rara
+      - algo fuera de lo común
+      - quiero experimentar
+      - sorprendeme
+      - lucete con tu mejor trago
+      - un coctel extravagante
+      - algo que me deje con el ojo cuadrado
+  ################################################################################################
+  #Whiskey
+  - intent: recommend_whiskey_drink
+    examples: |
+      - whiskey
+      - algo con whiskey
+      - que hay del whiskey
+      - prepara algo con whiskey
+      - que es lo mas fuerte que tienes
+      - dame algo con whiskey
+      - un wiskito
+      - wiski
+      - wisky
+      - echame unos vinos
+      - wisconsin
+      - dame un wisconsin
+
+  - intent: recommend_whiskey_sour
+    examples: |
+      - whiskey sour
+      - whisky soour
+      - wiski sour
+      - wiski sur
+      - que hay de un whiskey sour
+      - quiero un whiskey sour
+      - quiero un whisky sour
+      - algo dulce con whiskey
+
+  - intent: recommend_blow_job
+    examples: |
+      - hazme un bloujob
+      - bloujob
+      - blowjob
+      - quiero un blow job
+      - que hay del blow Job
+      - prepara blow job shot
+      - blow job shot
+      - blowjob shot
+
+  - intent: recommend_rompope
+    examples: |
+      - echame un rompope
+      - rompopito
+      - rompopin
+      - con el que se ponen hasta atras las monjas
+      - monjas
+      - rompope
+      - dame un rompope
+      - como se hace el rompope
+      - que hay del rompope
+
+  - intent: recommend_manhattan
+    examples: |
+      - manhathan
+      - manhattan
+      - quiero probar un manhattan
+      - que hay del manhattan
+      - como se hace el manhattan
+      - manhatan
+
+  - intent: recommend_cafe_irlandes
+    examples: |
+      - Cafecito irlandes
+      - echame un cafe
+      - cafe irlandes
+      - irlandes
+      - cafe irlandia
+      - irlandeses
+      - cafe
+      - que hay del cafe irlandes
+
+  - intent: recommend_john_collins
+    examples: |
+      - john collins
+      - jonh colins
+      - colins
+      - jon colins
+      - que hay del john collins
+      - quiero probar el john collins
+
+  - intent: recommend_old_fashion
+    examples: |
+      - old fashioned
+      - old fashion
+      - quiero algo bien fashion
+      - que hay del old fashion
+      - como se prepara old fashion
+
+  - intent: recommend_mint_julep
+    examples: |
+      - mint julep
+      - mint
+      - julep
+      - quiero probar el mint julep
+      - menta julepeta
+      - que hay del mint julep
+
+  - intent: recommend_rusty_nail
+    examples: |
+      - algo bien rustico
+      - rusti neil
+      - rusty nail
+      - que hay del justy nail
+      - quiero probar el justy nail
+      - dame un justy nail
+
+  ######################################################################################################
+  #base
+
+  - intent: saludar
+    examples: |
+      - hola
+      - ¡hola!
+      - hola amigo
+      - buenas
+      - buen día
+      - buenas tardes
+      - buenos días
+      - buenas noches
+      - ¿cómo estás?
+      - ¿qué tal?
+
+  - intent: despedir
+    examples: |
+      - adiós
+      - chao
+      - hasta luego
+      - nos vemos
+      - hasta la vista
+      - hasta pronto
+      - buen viaje
+      - que tengas un buen día
+      - hasta la próxima
+
+  - intent: afirmar
+    examples: |
+      - sí
+      - claro
+      - de acuerdo
+      - suena bien
+      - correcto
+      - exacto
+      - estoy de acuerdo
+
+  - intent: negar
+    examples: |
+      - no
+      - n
+      - nunca
+      - no creo
+      - no me gusta
+      - de ninguna manera
+      - no realmente
+
+  - intent: estado_anímico_bueno
+    examples: |
+      - perfecto
+      - genial
+      - asombroso
+      - me siento como un rey
+      - maravilloso
+      - me siento muy bien
+      - estoy genial
+      - estoy increíble
+      - voy a salvar el mundo
+      - emocionadísimo
+      - extremadamente bueno
+      - tan perfecto
+      - muy bien
+      - tan genial
+
+  - intent: estado_anímico_malo
+    examples: |
+      - mi día fue horrible
+      - estoy triste
+      - no me siento muy bien
+      - estoy decepcionado
+      - muy triste
+      - estoy tan triste
+      - triste
+      - muy triste
+      - infeliz
+      - no bien
+      - no muy bien
+      - extremadamente triste
+      - tan triste
+      - muy triste
+
+  - intent: desafío_del_bot
+    examples: |
+      - ¿eres un bot?
+      - ¿eres un humano?
+      - ¿estoy hablando con un bot?
+      - ¿estoy hablando con un humano?
